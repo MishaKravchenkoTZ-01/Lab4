@@ -1,0 +1,39 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 50PX);
+    grid-auto-rows: 50px;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    font-weight: 700;
+    color: white;
+}
+
+.box1 {
+    display: grid;
+    align-items: right;
+    justify-items: right;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: rgb(126, 125, 125);
+}
+
+.box2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 6;
+}
+
+.wrapper__item {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background: gray;
+    font-size: 20px;
+}
+
+.color2 {
+    background-color: rgb(255, 153, 0);
+}
